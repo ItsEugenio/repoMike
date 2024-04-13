@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashed-line {
+    background: linear-gradient(to right, transparent 10%, #000 10%, #000 20%, transparent 20%, transparent 30%, #000 30%, #000 40%, transparent 40%, transparent 50%);
+    background-size: 20px 1px; /* Ajusta el tamaño de cada trozo */
+    background-repeat: repeat-x;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d0e7dd; /* Color del scrollbar */
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2d3748; /* Color del fondo del scrollbar */
+    border-radius: 2px;
+  }
